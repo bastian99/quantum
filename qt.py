@@ -3,10 +3,10 @@ from streamlit_lottie import st_lottie
 import pandas as pd
 import requests
 
-# password_attempt = st.text_input('Please Enter The Password')
-# if password_attempt != 'example_password':
-#      st.write('Write the Password above')
-#      st.stop()
+password_guess = st.text_input('What is the Password?')
+if password_guess != st.secrets["password"]:
+  st.stop()
+
 
 def load_lottieurl(url: str):
     r = requests.get(url)
