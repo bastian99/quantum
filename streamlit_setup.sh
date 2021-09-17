@@ -3,4 +3,4 @@ echo "[server]
 headless = true
 port = $PORT
 enableCORS = false
-" > ~/.streamlit/secrets.toml
+" > ~/.streamlit/config.toml
