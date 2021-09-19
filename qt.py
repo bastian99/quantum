@@ -3,8 +3,8 @@ from streamlit_lottie import st_lottie
 import pandas as pd
 import requests
 
-password_guess = st.text_input('What is the Password?')
-if password_guess != st.secrets["password"]:
+password_guess = st.text_input('What is the Password?') 
+if password_guess != 'quantum': 
   st.stop()
 
 
