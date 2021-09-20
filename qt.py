@@ -78,3 +78,14 @@ st.latex(r' - i\hbar \frac{2}{L}\frac{{n\pi }}{L}\int_0^L {\sin \left( {\frac{{n
 st.latex(r'\sin 2A = 2\sin A\cos A,\hspace{1cm} - i\hbar \frac{{2n\pi }}{{{L^2}}}\left( {\frac{1}{2}} \right)\int_0^L {\sin \frac{{2n\pi x}}{L}dx} ')
 st.latex(r' - i\hbar \frac{{n\pi }}{{{L^2}}}\int_0^L {\sin \frac{{2n\pi x}}{L}dx}  = 0')
 
+'''
+2.20 Give the mathematical representation of a spherical wave travelling outward from a point and
+evaluate its probability current density.
+Solution. The mathematical representation of a spherical wave travelling outwards from a point is
+given by
+'''
+st.latex(r'\psi (r) = \frac{A}{r}\exp (ikr)')
+st.latex(r'')
+st.latex(r'')
+st.latex(r'')
+st.latex(r'')
