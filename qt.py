@@ -88,7 +88,13 @@ Solution. The mathematical representation of a spherical wave travelling outward
 given by
 '''
 st.latex(r'\psi (r) = \frac{A}{r}\exp (ikr)')
+'''
+where A is a constant and k is the wave vector. The probability current density
+'''
 st.latex(r'j = \frac{{ih}}{{2m}}(\psi \nabla \psi * - \psi *\nabla \psi )')
+st.latex(r' = \frac{{ih}}{{2m}}{\left| A \right|^2}\left[ {\frac{{{e^{ikr}}}}{r}\nabla \left( {\frac{{{e^{ - ikr}}}}{r}} \right) - \frac{{{e^{ - ikr}}}}{r}\nabla \left( {\frac{{{e^{ikr}}}}{r}} \right)} \right]')
+st.latex(r'\frac{{r( - ik{e^{ - ikr}}) - {e^{ - ikr}}}}{{{r^2}}} = \frac{{ - ik{e^{ - ikr}}}}{r} - \frac{{{e^{ - ikr}}}}{{{r^2}}}')
+st.latex(r'\frac{{r(ik{e^{ikr}}) - {e^{ikr}}}}{{{r^2}}} = \frac{{ik{e^{ikr}}}}{r} - \frac{{{e^{ikr}}}}{{{r^2}}}')
 st.latex(r'')
 st.latex(r'')
 st.latex(r'')
