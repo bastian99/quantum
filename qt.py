@@ -7,14 +7,15 @@ password_guess = st.text_input('What is the Password?')
 if password_guess != 'quantum': 
   st.stop()
 
-
 def load_lottieurl(url: str):
     r = requests.get(url)
     if r.status_code != 200:
         return None
     return r.json()
-lottie_airplane = load_lottieurl('https://assets4.lottiefiles.com/packages/lf20_jhu1lqdz.json')
-st_lottie(lottie_airplane, speed=1, height=200, key="initial")
+
+lottie_wave = load_lottieurl('https://assets10.lottiefiles.com/packages/lf20_lbHpNV.json')
+st_lottie(lottie_wave, speed=1.5, width = 800, height = 400)
+
 st.title('Quantum Theory')
 st.write('by Me')
 st.subheader('Question 1: ')
