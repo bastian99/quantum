@@ -99,3 +99,8 @@ st.latex(r'\frac{{r(ik{e^{ikr}}) - {e^{ikr}}}}{{{r^2}}} = \frac{{ik{e^{ikr}}}}{r
 st.latex(r'  = \frac{{i\hbar }}{{2m}}{\left| A \right|^2}\left[ {\frac{{{e^{ikr}}}}{r}\left( {\frac{{ - ik{e^{ - ikr}}}}{r} - \frac{{{e^{ - ikr}}}}{{{r^2}}}} \right) - \frac{{{e^{ - ikr}}}}{r}\left( {\frac{{ik{e^{ikr}}}}{r} - \frac{{{e^{ikr}}}}{{{r^2}}}} \right)} \right]')
 st.latex(r' = \frac{{i\hbar }}{{2m}}{\left| A \right|^2}\left( { - \frac{{ik}}{{{r^2}}} - \frac{1}{{{r^3}}} - \frac{{ik}}{{{r^2}}} + \frac{1}{{{r^3}}}} \right)')
 st.latex(r' = \frac{{i\hbar }}{{2m}}{\left| A \right|^2}\left( { - \frac{{2ik}}{{{r^2}}}} \right) = \frac{{\hbar k}}{{m{r^2}}}{\left| A \right|^2}')
+
+'''
+The wave function of a particle of mass m moving in a potential V(x) is '''
+st.latex(r'\Psi (x,t) = A\exp \left( { - ikt - \frac{{km}}{\hbar }{x^2}} \right)')
+'''where A and k are constants. Find the explicit form of the potential V(x).'''
