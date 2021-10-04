@@ -108,8 +108,13 @@ st.latex(r'\Psi (x,t) = A\exp \left( { - ikt - \frac{{km}}{\hbar }{x^2}} \right)
 '''where A and k are constants. Find the explicit form of the potential V(x).'''
 
 st.latex(r'\frac{{2\hbar kmx}}{{{\hbar ^2}}},\hspace{1cm}\frac{{\delta \Psi }}{{\delta x}} = A{e^{\left( { - ikt - \frac{{km}}{\hbar }{x^2}} \right)\left( { - \frac{{2\hbar kmx}}{{{\hbar ^2}}}} \right)}} = \Psi \left( { - \frac{{2kmx}}{\hbar }} \right)')
-st.latex(r'')
-st.latex(r'')
-st.latex(r'')
-st.latex(r'')
-st.latex(r'')
+st.latex(r'\frac{{2\hbar km}}{{{\hbar ^2}}},\hspace{1cm}\frac{{{\partial ^2}\Psi }}{{\partial {x^2}}} = \Psi \left( { - \frac{{2km}}{\hbar }} \right) + \left( { - \frac{{2kmx}}{\hbar }} \right)\Psi \left( { - \frac{{2kmx}}{\hbar }} \right)')
+st.latex(r' = \Psi \left( { - \frac{{2km}}{\hbar }} \right) + \left( {\frac{{4{k^2}{m^2}{x^2}}}{{{\hbar ^2}}}} \right)\Psi  = \left( { - \frac{{2km}}{\hbar } + \frac{{4{k^2}{m^2}{x^2}}}{{{\hbar ^2}}}} \right)\Psi ')
+'''
+TDSE
+'''
+st.latex(r'i\hbar \frac{{\delta \Psi }}{{\delta t}} =  - \frac{{{\hbar ^2}}}{{2m}}\frac{{{\partial ^2}\Psi }}{{\partial {x^2}}} + V\Psi ,i\hbar \frac{{\delta \Psi }}{{\delta t}} = k\hbar \Psi ')
+st.latex(r'k\hbar \Psi  + \frac{{{\hbar ^2}}}{{2m}}\left( { - \frac{{2km}}{\hbar } + \frac{{4{k^2}{m^2}{x^2}}}{{{\hbar ^2}}}} \right)\Psi  = V\Psi ')
+st.latex(r'k\hbar \Psi  - \frac{{2{\hbar ^2}km}}{{2m\hbar }}\Psi  + \frac{{4{\hbar ^2}{k^2}{m^2}{x^2}}}{{2m{\hbar ^2}}}\Psi  = V\Psi ')
+st.latex(r'k\hbar \Psi  - k\hbar \Psi  + 2{k^2}m{x^2}\Psi  = V\Psi ')
+st.latex(r'V(x) = 2{k^2}m{x^2}')
