@@ -102,6 +102,8 @@ st.latex(r' = \frac{{i\hbar }}{{2m}}{\left| A \right|^2}\left( { - \frac{{2ik}}{
 
 st.latex(r'\\')
 st.latex(r'\\')
+st.latex(r'\\')
+
 '''
 The wave function of a particle of mass m moving in a potential V(x) is '''
 st.latex(r'\Psi (x,t) = A\exp \left( { - ikt - \frac{{km}}{\hbar }{x^2}} \right)')
