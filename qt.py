@@ -144,5 +144,7 @@ probability current density
 st.latex(r'j = \frac{{i\hbar }}{{2m}}(\psi \nabla {\psi ^*} - {\psi ^*}\nabla \psi )')
 st.latex(r'\frac{\delta }{{\delta x}}\left( {A{e^{ - ikx}}} \right) =  - A{e^{ - ikx}}(ik),{\hspace 1cm}\frac{\delta }{{\delta x}}\left( {A{e^{ikx}}} \right) = A{e^{ikx}}(ik)')
 st.latex(r'A{e^{ikx}}( - A{e^{ - ikx}}(ik)) =  - {A^2}{e^{ikx}}{e^{ - ikx}}(ik),{\hspace 1cm}A{e^{ - ikx}}(A{e^{ikx}}(ik)) = {A^2}{e^{ - ikx}}{e^{ikx}}(ik)')
+st.latex(r'\frac{{i\hbar }}{{2m}}( - {A^2}ik - {A^2}ik),\frac{{i\hbar }}{{2m}}{A^2}( - ik - ik),{\hspace 1cm}{A^2}\left( {\frac{{k\hbar }}{{2m}} + \frac{{k\hbar }}{{2m}}} \right),{\hspace 1cm}{A^2}\frac{{k\hbar }}{m}')
+st.latex(r'')
 st.latex(r'')
 st.latex(r'')
