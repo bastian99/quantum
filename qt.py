@@ -137,4 +137,12 @@ Solution. Substitution of ψ(x) in the normalization condition gives
 '''
 st.latex(r'\left| {{N^2}} \right|\int_{ - \infty }^\infty  {{{\left| \psi  \right|}^2}dx = } \left| {{N^2}} \right|\int_{ - \infty }^\infty  {{{\left| A \right|}^2}{{\mathop{\rm e}\nolimits} ^{2ikx}}dx} ')
 st.latex(r'\frac{{\left| {{N^2}} \right|{{\left| A \right|}^2}}}{{2ik}}{{\mathop{\rm e}\nolimits} ^{2ikx}} = \left. {\frac{{\left| {{N^2}} \right|{{\left| A \right|}^2}}}{{2ik}}{{\mathop{\rm e}\nolimits} ^{2ikx}}} \right|_{ - \infty }^\infty  = 1')
+'''
+As this integral is not finite, the given wave function is not normalizable in the usual sense. The
+probability current density
+'''
+st.latex(r'j = \frac{{i\hbar }}{{2m}}(\psi \nabla {\psi ^*} - {\psi ^*}\nabla \psi )')
+st.latex(r'\frac{\delta }{{\delta x}}\left( {A{e^{ - ikx}}} \right) =  - A{e^{ - ikx}}(ik),{\hspace 1cm}\frac{\delta }{{\delta x}}\left( {A{e^{ikx}}} \right) = A{e^{ikx}}(ik)')
+st.latex(r'A{e^{ikx}}( - A{e^{ - ikx}}(ik)) =  - {A^2}{e^{ikx}}{e^{ - ikx}}(ik),{\hspace 1cm}A{e^{ - ikx}}(A{e^{ikx}}(ik)) = {A^2}{e^{ - ikx}}{e^{ikx}}(ik)')
+st.latex(r'')
 st.latex(r'')
