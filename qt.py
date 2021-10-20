@@ -118,3 +118,23 @@ st.latex(r'k\hbar \Psi  + \frac{{{\hbar ^2}}}{{2m}}\left( { - \frac{{2km}}{\hbar
 st.latex(r'k\hbar \Psi  - \frac{{2{\hbar ^2}km}}{{2m\hbar }}\Psi  + \frac{{4{\hbar ^2}{k^2}{m^2}{x^2}}}{{2m{\hbar ^2}}}\Psi  = V\Psi ')
 st.latex(r'k\hbar \Psi  - k\hbar \Psi  + 2{k^2}m{x^2}\Psi  = V\Psi ')
 st.latex(r'V(x) = 2{k^2}m{x^2}')
+
+
+st.latex(r'\\')
+st.latex(r'\\')
+
+'''
+2.22 The time-independent wave function of a system is
+'''
+st.latex(r'\psi (x) = A\exp (ikx)')
+'''
+where k is a constant.
+Check whether it is normalizable in the domain –∞< x < ∞. Calculate the probability current density
+for this function.
+'''
+'''
+Solution. Substitution of ψ(x) in the normalization condition gives
+'''
+st.latex(r'\left| {{N^2}} \right|\int_{ - \infty }^\infty  {{{\left| \psi  \right|}^2}dx = } \left| {{N^2}} \right|\int_{ - \infty }^\infty  {{{\left| A \right|}^2}{{\mathop{\rm e}\nolimits} ^{2ikx}}dx} ')
+st.latex(r'\frac{{\left| {{N^2}} \right|{{\left| A \right|}^2}}}{{2ik}}{{\mathop{\rm e}\nolimits} ^{2ikx}} = \left. {\frac{{\left| {{N^2}} \right|{{\left| A \right|}^2}}}{{2ik}}{{\mathop{\rm e}\nolimits} ^{2ikx}}} \right|_{ - \infty }^\infty  = 1')
+st.latex(r'')
