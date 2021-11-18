@@ -164,7 +164,7 @@ st.latex(r'\frac{{d\psi }}{{dx}} = {e^{\left( { - \sqrt {\frac{{m{\alpha ^2}}}{{
 st.latex(r'\frac{{{d^2}\psi }}{{d{x^2}}} = {e^{\left( { - \sqrt {\frac{{m{\alpha ^2}}}{{2{\hbar ^2}}}} {x^2}} \right)}}\left( { - \sqrt {\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}} } \right) + \left( { - x\sqrt {\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}} } \right){e^{\left( { - \sqrt {\frac{{m{\alpha ^2}}}{{2{\hbar ^2}}}} {x^2}} \right)}}\left( { - x\sqrt {\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}} } \right)')
 st.latex(r'\frac{{{d^2}\psi }}{{d{x^2}}} = {e^{\left( { - \sqrt {\frac{{m{\alpha ^2}}}{{2{\hbar ^2}}}} {x^2}} \right)}}\left( { - \sqrt {\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}} } \right) + {x^2}\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}{e^{\left( { - \sqrt {\frac{{m{\alpha ^2}}}{{2{\hbar ^2}}}} {x^2}} \right)}}')
 st.latex(r'\frac{{{d^2}\psi }}{{d{x^2}}} =  - \sqrt {\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}} \left[ {1 - {x^2}\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}} \right]{e^{\left( { - \sqrt {\frac{{m{\alpha ^2}}}{{2{\hbar ^2}}}} {x^2}} \right)}}')
-''' TISE '''
+st.markdown("<h3 style='text-align: center; color: white;'>TISE</h3>", unsafe_allow_html=True)
 st.latex(r'\left[ {\frac{{ - {\hbar ^2}}}{{2m}}{\nabla ^2} + V(r)} \right]\psi (r) = E\psi (r)')
 st.latex(r'')
 st.latex(r'')
