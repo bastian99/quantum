@@ -168,4 +168,5 @@ st.markdown("<h3 style='text-align: center; color: white;'>TISE</h3>", unsafe_al
 st.latex(r'\left[ {\frac{{ - {\hbar ^2}}}{{2m}}{\nabla ^2} + V(r)} \right]\psi (r) = E\psi (r)')
 st.latex(r'\frac{{ - {\hbar ^2}}}{{2m}}\left[ { - \sqrt {\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}}  + {x^2}\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}} \right] + {\alpha ^2}{x^2} = E')
 st.latex(r'\sqrt {\frac{{{\hbar ^4}m{\alpha ^2}}}{{{\hbar ^2}4{m^2}}}}  - \frac{{{\hbar ^2}m{\alpha ^2}{x^2}}}{{2m{\hbar ^2}}} + {\alpha ^2}{x^2} = E')
-st.latex(r'')
+st.latex(r'\hbar \sqrt {\frac{{{\alpha ^2}}}{{2m}}}  - {\alpha ^2}{x^2} + {\alpha ^2}{x^2} = E')
+st.latex(r'E = \frac{{\hbar \alpha }}{{\sqrt {2m} }}')
