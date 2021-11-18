@@ -159,7 +159,7 @@ Find the energy of the system
 '''
 Solution. We have
 '''
-st.latex(r'\frac{{du}}{{dx}} =  - 2x{\left( {\frac{{m{\alpha ^2}}}{{2{\hbar ^2}}}} \right)^{{\raise0.7ex\hbox{$1$} \!\mathord{\left/{\vphantom {1 2}}\right.\kern-\nulldelimiterspace}\!\lower0.7ex\hbox{$2$}}}} =  - x\sqrt {\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}} ')
+st.latex(r'\frac{{du}}{{dx}} =  - 2x{\left( {\frac{{m{\alpha ^2}}}{{2{\hbar ^2}}}} \right)^{\frac{1}{2}}} =  - x\sqrt {\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}} ')
 st.latex(r'\frac{{d\psi }}{{dx}} = {e^{\left( { - \sqrt {\frac{{m{\alpha ^2}}}{{2{\hbar ^2}}}} {x^2}} \right)}}\left( { - x\sqrt {\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}} } \right),')
 
 st.latex(r'')
