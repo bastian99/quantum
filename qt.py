@@ -162,4 +162,4 @@ Solution. We have
 st.latex(r'\frac{{du}}{{dx}} =  - 2x{\left( {\frac{{m{\alpha ^2}}}{{2{\hbar ^2}}}} \right)^{\frac{1}{2}}} =  - x\sqrt {\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}} ')
 st.latex(r'\frac{{d\psi }}{{dx}} = {e^{\left( { - \sqrt {\frac{{m{\alpha ^2}}}{{2{\hbar ^2}}}} {x^2}} \right)}}\left( { - x\sqrt {\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}} } \right),')
 st.latex(r'\frac{{{d^2}\psi }}{{d{x^2}}} = {e^{\left( { - \sqrt {\frac{{m{\alpha ^2}}}{{2{\hbar ^2}}}} {x^2}} \right)}}\left( { - \sqrt {\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}} } \right) + \left( { - x\sqrt {\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}} } \right){e^{\left( { - \sqrt {\frac{{m{\alpha ^2}}}{{2{\hbar ^2}}}} {x^2}} \right)}}\left( { - x\sqrt {\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}} } \right)')
-st.latex(r'')
+st.latex(r'\frac{{{d^2}\psi }}{{d{x^2}}} = {e^{\left( { - \sqrt {\frac{{m{\alpha ^2}}}{{2{\hbar ^2}}}} {x^2}} \right)}}\left( { - \sqrt {\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}} } \right) + {x^2}\frac{{2m{\alpha ^2}}}{{{\hbar ^2}}}{e^{\left( { - \sqrt {\frac{{m{\alpha ^2}}}{{2{\hbar ^2}}}} {x^2}} \right)}}')
