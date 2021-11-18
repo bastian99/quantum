@@ -151,8 +151,8 @@ st.latex(r'\\')
 '''
 2.27 The time-independent wave function of a particle of mass m moving in a potential V(x)= α²x² is
 '''
-st.latex()
-st.latex(r'\exp \underbrace {\left( {\sqrt {\frac{{m{\alpha ^2}}}{{2{\hbar ^2}}}} {x^2}} \right)}_u,{\hspace 0.2cm}\alpha{\hspace 0.2cm} being{\hspace 0.2cm}a{\hspace 0.2cm}constant')
+st.latex(r'\underbrace x_e')
+#{\hspace 0.2cm}\alpha{\hspace 0.2cm} being{\hspace 0.2cm}a{\hspace 0.2cm}constant')
 '''
 Find the energy of the system
 '''
