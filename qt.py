@@ -186,6 +186,6 @@ st.latex(r'\Psi (x,t) = A\exp [i(kx - \omega t)]')
 Substituing this solution in the given wave equation, we obtain
 """
 st.latex(r'\frac{{\delta \Psi }}{{\delta t}} =  - Ai\omega {e^{i(kx - \omega t)}} =  - i\omega \Psi , \hspace{1cm}\frac{{{\partial ^2}\Psi }}{{\partial {t^2}}} = A{i^2}{\omega ^2}{e^{i(kx - \omega t)}} =  - {\omega ^2}\Psi ')
-st.latex(r'')
+st.latex(r'\frac{{\delta \Psi }}{{\delta x}} = Aik{e^{i(kx - \omega t)}} = ik\Psi ,\frac{{{\partial ^2}\Psi }}{{\partial {x^2}}} = A{i^2}{\omega ^2}{e^{i(kx - \omega t)}} =  - {k^2}\Psi ')
 st.latex(r'')
 st.latex(r'')
