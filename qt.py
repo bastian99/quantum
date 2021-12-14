@@ -172,5 +172,11 @@ st.latex(r'\hbar \sqrt {\frac{{{\alpha ^2}}}{{2m}}}  - {\alpha ^2}{x^2} + {\alph
 st.latex(r'E = \frac{{\hbar \alpha }}{{\sqrt {2m} }}')
 
 '''
-To be continued...
+2.28 For a particle of mass m, Schrödinger arrived at the wave equation:
 '''
+st.latex(r'\frac{1}{{{c^2}}}\frac{{{\partial ^2}\Psi }}{{\partial {t^2}}} = \frac{{{\partial ^2}\Psi }}{{\partial {x^2}}} - \frac{{{m^2}{c^2}}}{{{\hbar ^2}}}\Psi ')
+st.latex(r'')
+st.latex(r'')
+st.latex(r'')
+st.latex(r'')
+st.latex(r'')
