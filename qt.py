@@ -188,4 +188,4 @@ Substituing this solution in the given wave equation, we obtain
 st.latex(r'\frac{{\delta \Psi }}{{\delta t}} =  - Ai\omega {e^{i(kx - \omega t)}} =  - i\omega \Psi , \hspace{1cm}\frac{{{\partial ^2}\Psi }}{{\partial {t^2}}} = A{i^2}{\omega ^2}{e^{i(kx - \omega t)}} =  - {\omega ^2}\Psi ')
 st.latex(r'\frac{{\delta \Psi }}{{\delta x}} = Aik{e^{i(kx - \omega t)}} = ik\Psi , \hspace{1cm}\frac{{{\partial ^2}\Psi }}{{\partial {x^2}}} = A{i^2}{\omega ^2}{e^{i(kx - \omega t)}} =  - {k^2}\Psi ')
 st.latex(r' - \frac{1}{{{c^2}}}{\omega ^2}\Psi  =  - {k^2}\Psi  - \frac{{{m^2}{c^2}}}{{{\hbar ^2}}}\Psi ,\hspace{1cm} - \frac{{{\omega ^2}}}{{{c^2}}} =  - {k^2} - \frac{{{m^2}{c^2}}}{{{\hbar ^2}}},\hspace{1cm} - {\omega ^2} =  - {k^2}{c^2} - \frac{{{m^2}{c^4}}}{{{\hbar ^2}}}, \hspace{1cm}- {\omega ^2}{\hbar ^2} =  - {k^2}{c^2}{\hbar ^2} - {m^2}{c^4}')
-st.latex(r'')
+st.latex(r'E = \hbar \omega \hspace{0.3cm}and\hspace{0.3cm}p = k\hbar ,\hspace{1cm} - {E^2} =  - {p^2}{c^2} - {m^2}{c^4},\hspace{1cm}{E^2} = {p^2}{c^2} + {m^2}{c^4}')
