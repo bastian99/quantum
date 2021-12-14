@@ -171,12 +171,21 @@ st.latex(r'\sqrt {\frac{{{\hbar ^4}m{\alpha ^2}}}{{{\hbar ^2}4{m^2}}}}  - \frac{
 st.latex(r'\hbar \sqrt {\frac{{{\alpha ^2}}}{{2m}}}  - {\alpha ^2}{x^2} + {\alpha ^2}{x^2} = E')
 st.latex(r'E = \frac{{\hbar \alpha }}{{\sqrt {2m} }}')
 
+st.latex(r'\\')
+st.latex(r'\\')
+
 '''
-2.28 For a particle of mass m, Schrödinger arrived at the wave equation:
+2.28 For a particle of mass m, Schrödinger arrived at the wave equation
 '''
 st.latex(r'\frac{1}{{{c^2}}}\frac{{{\partial ^2}\Psi }}{{\partial {t^2}}} = \frac{{{\partial ^2}\Psi }}{{\partial {x^2}}} - \frac{{{m^2}{c^2}}}{{{\hbar ^2}}}\Psi ')
-st.latex(r'')
-st.latex(r'')
+"""
+Solution. For plane waves,
+"""
+st.latex(r'\Psi (x,t) = A\exp [i(kx - \omega t)]')
+"""
+Substituing this solution in the given wave equation, we obtain
+"""
+st.latex(r'\frac{{\delta \Psi }}{{\delta t}} =  - Ai\omega {e^{i(kx - \omega t)}} =  - i\omega \Psi , \hspace{1cm}\frac{{{\partial ^2}\Psi }}{{\partial {t^2}}} = A{i^2}{\omega ^2}{e^{i(kx - \omega t)}} =  - {\omega ^2}\Psi ')
 st.latex(r'')
 st.latex(r'')
 st.latex(r'')
