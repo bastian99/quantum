@@ -179,6 +179,10 @@ st.latex(r'\\')
 '''
 st.latex(r'\frac{1}{{{c^2}}}\frac{{{\partial ^2}\Psi }}{{\partial {t^2}}} = \frac{{{\partial ^2}\Psi }}{{\partial {x^2}}} - \frac{{{m^2}{c^2}}}{{{\hbar ^2}}}\Psi ')
 """
+Show that a plane wave solution of this equation is consistent with the relativistic energy momentum
+relationship.
+"""
+"""
 Solution. For plane waves,
 """
 st.latex(r'\Psi (x,t) = A\exp [i(kx - \omega t)]')
