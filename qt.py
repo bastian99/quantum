@@ -224,6 +224,6 @@ st.latex(r'E\psi (x) - V(x) =  - \frac{{{\hbar ^2}}}{{2m}}\left[ {\frac{{n(n - 1
 """
 when x → ∞, V(x) → 0 Hence,
 """
-st.latex(r'E\psi (x) =  - \frac{{{\hbar ^2}}}{{2m{x_0}^2}},V(x) =  - \frac{{{\hbar ^2}}}{{2m{x_0}^2}} + \frac{{{\hbar ^2}}}{{2m}}\left[ {\frac{{n(n - 1)}}{{{x^2}}} - \frac{{2n}}{{{x_0}x}} + \frac{1}{{{x_0}^2}}} \right]')
+st.latex(r'E\psi (x) =  - \frac{{{\hbar ^2}}}{{2m{x_0}^2}},\hspace{0.5cm}V(x) =  - \frac{{{\hbar ^2}}}{{2m{x_0}^2}} + \frac{{{\hbar ^2}}}{{2m}}\left[ {\frac{{n(n - 1)}}{{{x^2}}} - \frac{{2n}}{{{x_0}x}} + \frac{1}{{{x_0}^2}}} \right]')
 st.latex(r'V(x) = \frac{{{\hbar ^2}}}{{2m}}\left[ {\frac{{n(n - 1)}}{{{x^2}}} - \frac{{2n}}{{{x_0}x}}} \right]')
 
