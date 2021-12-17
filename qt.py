@@ -193,3 +193,21 @@ st.latex(r'\frac{{\delta \Psi }}{{\delta t}} =  - Ai\omega {e^{i(kx - \omega t)}
 st.latex(r'\frac{{\delta \Psi }}{{\delta x}} = Aik{e^{i(kx - \omega t)}} = ik\Psi , \hspace{1cm}\frac{{{\partial ^2}\Psi }}{{\partial {x^2}}} = A{i^2}{\omega ^2}{e^{i(kx - \omega t)}} =  - {k^2}\Psi ')
 st.latex(r' - \frac{1}{{{c^2}}}{\omega ^2}\Psi  =  - {k^2}\Psi  - \frac{{{m^2}{c^2}}}{{{\hbar ^2}}}\Psi ,\hspace{1cm} - \frac{{{\omega ^2}}}{{{c^2}}} =  - {k^2} - \frac{{{m^2}{c^2}}}{{{\hbar ^2}}},\hspace{1cm} - {\omega ^2} =  - {k^2}{c^2} - \frac{{{m^2}{c^4}}}{{{\hbar ^2}}}, \hspace{1cm}- {\omega ^2}{\hbar ^2} =  - {k^2}{c^2}{\hbar ^2} - {m^2}{c^4}')
 st.latex(r'E = \hbar \omega \hspace{0.3cm}and\hspace{0.3cm}p = k\hbar ,\hspace{1cm} - {E^2} =  - {p^2}{c^2} - {m^2}{c^4},\hspace{1cm}{E^2} = {p^2}{c^2} + {m^2}{c^4}')
+
+
+st.latex(r'\\')
+st.latex(r'\\')
+"""2.29 Using the time-independent Schrödinger equation, find the potential V(x) and energy E for
+which the wave function"""
+st.latex(r'\psi (x) = {\left( {\frac{x}{{{x_0}}}} \right)^n}{e^{\frac{x}{{{x_0}}}}}')
+"""
+where n, x0 are constants, is an eigenfunction. Assume that V(x) → 0 as x → ∞.
+"""
+"""
+Solution. Differentiating the wave function with respect to x, we get
+"""
+st.latex(r'\\')
+st.latex(r'\\')
+st.latex(r'\\')
+st.latex(r'\\')
+st.latex(r'\\')
