@@ -206,7 +206,7 @@ where n, x0 are constants, is an eigenfunction. Assume that V(x) → 0 as x → 
 """
 Solution. Differentiating the wave function with respect to x, we get
 """
-st.latex(r'\\')
+st.latex(r'\frac{d}{{dx}}\left( {{e^{\frac{x}{{{x_0}}}}}} \right) =  - \frac{1}{{{x_0}}}{e^{ - \frac{x}{{{x_0}}}}},\hspace{1cm}\frac{d}{{dx}}{\left( {\frac{x}{{{x_0}}}} \right)^n} = n{\left( {\frac{x}{{{x_0}}}} \right)^{n - 1}}\left( {\frac{1}{{{x_0}}}} \right)')
 st.latex(r'\\')
 st.latex(r'\\')
 st.latex(r'\\')
