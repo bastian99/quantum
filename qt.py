@@ -217,6 +217,6 @@ st.latex(r'{x^{n - 2}} + {x^{n - 1}} + x,\hspace{0.5cm}n = 0,\hspace{0.5cm}\frac
 st.latex(r'\hspace{3cm}n = 1,\hspace{0.5cm}\frac{1}{x} + 1 + x')
 st.latex(r'\hspace{3cm}n = 2,\hspace{0.5cm}1 + x + {x^2}')
 st.latex(r'\hspace{3cm}n = 3,\hspace{0.5cm}x + {x^2} + {x^3}')
-st.latex(r'\\')
+st.latex(r'\hspace{0.5cm}n - 2:{x_0}^2{x_0}^{ - 2} = 1,\hspace{0.5cm}n - 1:{x_0}^2{x_0}^{ - 1} = {x_0},\hspace{0.5cm}n:{x_0}^2{x_0}^0 = {x_0}^2')
 st.latex(r'\\')
 st.latex(r'\\')
