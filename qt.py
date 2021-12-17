@@ -213,4 +213,4 @@ st.latex(r'\frac{{d^\circ 2^\circ }}{{dx}} = \frac{n}{{{x_0}}}\left[ {{e^{ - \fr
 st.latex(r' = \frac{n}{{{x_0}^2}}{e^{ - \frac{x}{{{x_0}}}}}(n - 1){\left( {\frac{x}{{{x_0}}}} \right)^{n - 2}} - \frac{n}{{{x_0}^2}}{\left( {\frac{x}{{{x_0}}}} \right)^{n - 1}}{e^{ - \frac{x}{{{x_0}}}}}')
 st.latex(r'\frac{{{d^2}\psi }}{{d{x^2}}} = \frac{n}{{{x_0}^2}}{e^{ - \frac{x}{{{x_0}}}}}(n - 1){\left( {\frac{x}{{{x_0}}}} \right)^{n - 2}} - \frac{{2n}}{{{x_0}^2}}{\left( {\frac{x}{{{x_0}}}} \right)^{n - 1}}{e^{ - \frac{x}{{{x_0}}}}} + \frac{1}{{{x_0}^2}}{\left( {\frac{x}{{{x_0}}}} \right)^n}{e^{ - \frac{x}{{{x_0}}}}}')
 st.latex(r' = {\left( {\frac{x}{{{x_0}}}} \right)^n}{e^{ - \frac{x}{{{x_0}}}}}\left[ {\frac{{n(n - 1)}}{{{x^2}}} - \frac{{2n}}{{{x_0}x}} + \frac{1}{{{x_0}^2}}} \right] = \psi (x)\left[ {\frac{{n(n - 1)}}{{{x^2}}} - \frac{{2n}}{{{x_0}x}} + \frac{1}{{{x_0}^2}}} \right]')
-st.latex(r'\[\begin{array}{*{20}{c}}{ds}&{asdas}\end{array}\]')
+st.latex(r'\begin{array}{*{20}{c}}{ds}&{asdas}\end{array}')
