@@ -214,7 +214,7 @@ st.latex(r' = \frac{n}{{{x_0}^2}}{e^{ - \frac{x}{{{x_0}}}}}(n - 1){\left( {\frac
 st.latex(r'\frac{{{d^2}\psi }}{{d{x^2}}} = \frac{n}{{{x_0}^2}}{e^{ - \frac{x}{{{x_0}}}}}(n - 1){\left( {\frac{x}{{{x_0}}}} \right)^{n - 2}} - \frac{{2n}}{{{x_0}^2}}{\left( {\frac{x}{{{x_0}}}} \right)^{n - 1}}{e^{ - \frac{x}{{{x_0}}}}} + \frac{1}{{{x_0}^2}}{\left( {\frac{x}{{{x_0}}}} \right)^n}{e^{ - \frac{x}{{{x_0}}}}}')
 st.latex(r' = {\left( {\frac{x}{{{x_0}}}} \right)^n}{e^{ - \frac{x}{{{x_0}}}}}\left[ {\frac{{n(n - 1)}}{{{x^2}}} - \frac{{2n}}{{{x_0}x}} + \frac{1}{{{x_0}^2}}} \right] = \psi (x)\left[ {\frac{{n(n - 1)}}{{{x^2}}} - \frac{{2n}}{{{x_0}x}} + \frac{1}{{{x_0}^2}}} \right]')
 st.latex(r'{x^{n - 2}} + {x^{n - 1}} + x,\hspace{0.5cm}n = 0,\hspace{0.5cm}\frac{1}{{{x^2}}} + \frac{1}{x} + 1')
-st.latex(r'\hspace{5cm}n = 1,\hspace{0.5cm}\frac{1}{x} + 1 + x')
+st.latex(r'\hspace{4cm}n = 1,\hspace{0.5cm}\frac{1}{x} + 1 + x')
 st.latex(r'\\')
 st.latex(r'\\')
 st.latex(r'\\')
